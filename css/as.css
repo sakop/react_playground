@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: -webkit-pictograph;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding: 30px 100px;
+    font-size: 24px;
+}
+
+.content {
+    margin-left: 100px;
+    margin-right: 100px;
+    /*border: 1px solid black;*/
+    margin-top: 50px;
+    height: 800px;
+}
+
+.block {
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    position: relative;
+}
+
+.deeper {
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.clear:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.cell:first-child {
+    text-align: left;
+}
+
+.cell {
+    line-height: 50px;
+    text-align: center;
+}
+
+.third {
+    float: left;
+    width: 33%;
+}
+
+.third:first-child {
+    text-align: left;
+}
+
+.third:nth-of-type(2) {
+    text-align: center;
+}
+
+.third:last-child {
+    text-align: right;
+}
+
+.saved_pi {
+    font-weight: 700;
+    color: #424242;
+    font-size: 14px;
+}
+
+.ordinary {
+    color: #424242;
+    font-size: 14px;
+}
+
+.right {
+    float: right;
+    right: 10px;
+}
+
+.leftContent {
+    float: left;
+    width: 65%;
+}
+
+.rightContent {
+    float: right;
+    width: 33%;
+    position: relative;
+    top: 72px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #34424d;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    color: white;
+}
+
+.place-order {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+}
+
+.term {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.attr {
+    float: left;
+    text-align: left;
+}
+
+.value {
+    float: right;
+    text-align: right;
+}
+
+.half {
+    float: left;
+    width: 49%;
+}
