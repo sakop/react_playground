@@ -1,6 +1,9 @@
-import React from "react";
+import React, {PropTypes} from "react";
 
-export default function Div(){
-    var r = Math.random() * 1000 / 1000 + 2;
-    return <div><h1>${r}</h1></div>;
+export default function Div(props) {
+    return <div><h1>{props.value}</h1></div>;
 }
+
+Div.propTypes = {
+    value: PropTypes.string.isRequired
+};

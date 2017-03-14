@@ -1,15 +1,11 @@
 const path = require("path");
 const webpack = require("webpack");
 module.exports = {
-    devtool: "cheap-module-eval-source-map",
+    devtool: 'source-map',
     entry: {
         test: [
             "webpack-hot-middleware/client",
             "./js/index.js"
-        ],
-        context: [
-            "webpack-hot-middleware/client",
-            "./js/context_demo"
         ]
     },
     output: {
